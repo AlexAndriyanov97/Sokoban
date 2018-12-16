@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_Sokoban.1630023998.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Sokoban" t="IncludeRecursive">
+        <e p="Controller.cs" t="Include" />
+        <e p="IController.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Map.cs" t="Include" />
+          <e p="MapStorage.cs" t="Include" />
+          <e p="ObjectsOfMap" t="Include">
+            <e p="Box.cs" t="Include" />
+            <e p="IGameObject.cs" t="Include" />
+            <e p="MotionlessObject" t="Include">
+              <e p="EmptyCell.cs" t="Include" />
+              <e p="Finish.cs" t="Include" />
+              <e p="Wall.cs" t="Include" />
+            </e>
+            <e p="Player.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Sokoban.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="images" t="Include">
+          <e p="box.png" t="Include" />
+          <e p="empty.png" t="Include" />
+          <e p="finish.png" t="Include" />
+          <e p="player.png" t="Include" />
+          <e p="wall.png" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Sokoban.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Sokoban.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
