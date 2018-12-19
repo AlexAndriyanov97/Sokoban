@@ -6,7 +6,7 @@ namespace Sokoban
 {
     public class Player : IGameObject
     {
-        private const string FileName = "player.png";
+        private const string FileName = "player_05.png";
 
         public string Name { get; private set; }
         private Point currentPosition;
@@ -30,6 +30,16 @@ namespace Sokoban
         public bool IsMotionless()
         {
             return false;
+        }
+
+        public Point GetPosition()
+        {
+            return currentPosition;
+        }
+
+        public void SetPosition(Point position)
+        {
+            currentPosition = position;
         }
     }
 }

@@ -2,13 +2,13 @@ using System.Drawing;
 
 namespace Sokoban
 {
-    public class Box: IGameObject
+    public class FinishBox:IGameObject
     {
-        private const string FileName = "crate_12.png";
+        private const string FileName = "crate_05.png";
         public bool BoxOnFinish { get; private set; }
         private Point currentPosition;
         
-        public Box(int x,int y)
+        public FinishBox(int x,int y)
         {
             currentPosition =new Point(x,y);
         }

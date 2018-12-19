@@ -10,10 +10,10 @@
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netcoreapp2.1"
+      "net45"
     ],
     "frameworks": {
-      "netcoreapp2.1": {
+      "net45": {
         "projectReferences": {}
       }
     },
@@ -24,20 +24,6 @@
     }
   },
   "frameworks": {
-    "netcoreapp2.1": {
-      "dependencies": {
-        "Microsoft.NETCore.App": {
-          "suppressParent": "All",
-          "target": "Package",
-          "version": "[2.1.0, )",
-          "autoReferenced": true
-        }
-      },
-      "imports": [
-        "net461"
-      ],
-      "assetTargetFallback": true,
-      "warn": true
-    }
+    "net45": {}
   }
 }

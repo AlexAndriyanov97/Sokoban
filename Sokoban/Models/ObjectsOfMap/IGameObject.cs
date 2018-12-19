@@ -1,3 +1,5 @@
+using System.Drawing;
+
 namespace Sokoban
 {
     public interface IGameObject
@@ -5,5 +7,9 @@ namespace Sokoban
         bool IsMotionless();
         
         string GetImageFile();
+
+        Point GetPosition();
+
+        void SetPosition(Point position);
     }
 }

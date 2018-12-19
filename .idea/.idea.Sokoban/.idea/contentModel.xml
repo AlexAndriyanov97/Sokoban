@@ -13,6 +13,7 @@
           <e p="MapStorage.cs" t="Include" />
           <e p="ObjectsOfMap" t="Include">
             <e p="Box.cs" t="Include" />
+            <e p="FinishBox.cs" t="Include" />
             <e p="IGameObject.cs" t="Include" />
             <e p="MotionlessObject" t="Include">
               <e p="EmptyCell.cs" t="Include" />
@@ -24,17 +25,19 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Sokoban.csproj" t="IncludeRecursive" />
+        <e p="SokobanWindow.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="images" t="Include">
-          <e p="box.png" t="Include" />
-          <e p="empty.png" t="Include" />
-          <e p="finish.png" t="Include" />
-          <e p="player.png" t="Include" />
-          <e p="wall.png" t="Include" />
+          <e p="block_05.png" t="Include" />
+          <e p="crate_05.png" t="Include" />
+          <e p="crate_12.png" t="Include" />
+          <e p="ground_01.png" t="Include" />
+          <e p="ground_02.png" t="Include" />
+          <e p="player_05.png" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.1" t="Include">
+            <e p="net45" t="Include">
               <e p="Sokoban.AssemblyInfo.cs" t="Include" />
             </e>
           </e>

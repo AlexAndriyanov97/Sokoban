@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace Sokoban
 {
@@ -6,7 +7,9 @@ namespace Sokoban
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var controller = new Controller();
+            controller.CreateGame(1);
+            Application.Run(new SokobanWindow(controller));
         }
     }
 }

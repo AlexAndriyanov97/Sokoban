@@ -11,9 +11,9 @@ namespace Sokoban
         {
             {
                 1, @"
-PTTTT
-  T  
-TTTTM"
+BBBBB
+FFBFF
+PBBBB"
             },
             {
                 2, @"
@@ -46,11 +46,6 @@ MT  TMTTTT"
                 return maps[level];
             }
             throw new ArgumentException("Нет необходимого уровня",nameof(level));
-        }
-
-        public static Point GetStartPositionOfPlayer()
-        {
-            
         }
     }
 }
