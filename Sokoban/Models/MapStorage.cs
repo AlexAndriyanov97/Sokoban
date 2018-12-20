@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Runtime.CompilerServices;
 
 namespace Sokoban
@@ -32,7 +33,7 @@ P       W"
   WWW  BWWW           
   W  B  B W           
 WWW W WWW W     WWWWWW
-W   W WWW WWWWWWW  FF
+W   W WWW WWWWWWW  FFW
 W B  B             FFW
 WWWWW WWWW WPWWWW  FFW
     W      WWW  WWWWWW
@@ -47,6 +48,11 @@ WWWWW WWWW WPWWWW  FFW
                 return maps[level];
             }
             throw new ArgumentException("Нет необходимого уровня",nameof(level));
+        }
+
+        public static List<int> GetArrayLevels()
+        {
+            return maps.Select(x => x.Key).ToList();
         }
     }
 }

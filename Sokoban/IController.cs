@@ -10,5 +10,7 @@ namespace Sokoban
         void CalculateStep(Keys key);
         bool GameIsOver();
         Map GetMap();
+
+        void Reset();
     }
 }

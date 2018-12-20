@@ -7,6 +7,8 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Sokoban" t="IncludeRecursive">
         <e p="Controller.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.cs" t="Include" />
         <e p="IController.cs" t="Include" />
         <e p="Models" t="Include">
           <e p="Map.cs" t="Include" />

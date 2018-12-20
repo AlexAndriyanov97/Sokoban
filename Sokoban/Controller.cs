@@ -13,7 +13,7 @@ namespace Sokoban
         private Dictionary<string, int> records = new Dictionary<string, int>();
         public Map map;
         private static Keys keyPressed;
-        private bool gameOver;
+        private bool isGameOver;
         private int score;
 
         public void CreateGame(int level)
@@ -104,7 +104,7 @@ namespace Sokoban
             var countFinishBox = map.mapOfObjects.OfType<FinishBox>().Count();
             if (countFinishBox == map.CountFinishCells)
             {
-                gameOver = true;
+                isGameOver = true;
             }
         }
 
@@ -180,9 +180,14 @@ namespace Sokoban
             return score;
         }
 
+        public void Reset()
+        {
+            map.mapOfObjects = map.sourceMap;
+        }
+
         public bool GameIsOver()
         {
-            return gameOver;
+            return isGameOver;
         }
 
         public Map GetMap()

@@ -7,9 +7,7 @@ namespace Sokoban
     {
         static void Main(string[] args)
         {
-            var controller = new Controller();
-            controller.CreateGame(2);
-            Application.Run(new SokobanWindow(controller));
+            Application.Run(new Form1());
         }
     }
 }

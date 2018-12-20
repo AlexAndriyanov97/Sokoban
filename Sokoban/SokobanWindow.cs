@@ -11,15 +11,29 @@ namespace Sokoban
         private const int elementSize = 65;
         private readonly Dictionary<string, Bitmap> bitmaps = new Dictionary<string, Bitmap>();
         private readonly IController controller;
+        private Button reset;
+        private Timer timer = new Timer();
+        private int timerCounter = 0;
 
-        public SokobanWindow(Controller controller)
+        public SokobanWindow(IController controller)
         {
+            timer.Interval = 1000;
+            timer.Tick += new EventHandler(timer_Tick);
+            timer.Start();
+
             this.controller = controller;
-            ClientSize = new Size(elementSize*controller.map.MapWidth, elementSize*controller.map.MapHeight+32);
+            ClientSize = new Size(elementSize * controller.GetMap().MapWidth,
+                elementSize * controller.GetMap().MapHeight + 32);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             var imagesDirectory = new DirectoryInfo("images");
             foreach (var e in imagesDirectory.GetFiles("*.png"))
                 bitmaps[e.Name] = (Bitmap) Image.FromFile(e.FullName);
+        }
+
+        void timer_Tick(object sender, EventArgs e)
+        {
+            ++timerCounter;
+            Invalidate();
         }
 
         protected override void OnLoad(EventArgs e)
@@ -32,7 +46,8 @@ namespace Sokoban
         protected override void OnPaint(PaintEventArgs e)
         {
             e.Graphics.TranslateTransform(0, 32);
-            e.Graphics.FillRectangle(new TextureBrush(bitmaps["ground_01.png"]), 0, 0, elementSize*controller.GetMap().MapWidth, elementSize*controller.GetMap().MapHeight+32);
+            e.Graphics.FillRectangle(new TextureBrush(bitmaps["ground_01.png"]), 0, 0,
+                elementSize * controller.GetMap().MapWidth, elementSize * controller.GetMap().MapHeight + 32);
             foreach (var a in controller.GetMap().mapOfObjects)
             {
                 var point = a.GetPosition();
@@ -42,6 +57,7 @@ namespace Sokoban
             }
 
             e.Graphics.ResetTransform();
+            e.Graphics.DrawString(timerCounter.ToString(), new Font("Arial", 16), Brushes.Red, 64, 0);
             e.Graphics.DrawString(controller.GetScore().ToString(), new Font("Arial", 16), Brushes.Green, 0, 0);
         }
 
@@ -52,11 +68,8 @@ namespace Sokoban
             {
                 //TODO
             }
+
             Invalidate();
         }
-        
-        
-        
-
     }
 }
