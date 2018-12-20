@@ -22,8 +22,8 @@ namespace Sokoban
             timer.Start();
 
             this.controller = controller;
-            ClientSize = new Size(elementSize * controller.GetMap().MapWidth,
-                elementSize * controller.GetMap().MapHeight + 32);
+            ClientSize = new Size(elementSize * controller.GetMapWidth(),
+                elementSize * controller.GetMapHeight() + 32);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             var imagesDirectory = new DirectoryInfo("images");
             foreach (var e in imagesDirectory.GetFiles("*.png"))
@@ -47,7 +47,7 @@ namespace Sokoban
         {
             e.Graphics.TranslateTransform(0, 32);
             e.Graphics.FillRectangle(new TextureBrush(bitmaps["ground_01.png"]), 0, 0,
-                elementSize * controller.GetMap().MapWidth, elementSize * controller.GetMap().MapHeight + 32);
+                elementSize * controller.GetMapWidth(), elementSize * controller.GetMapHeight() + 32);
             foreach (var a in controller.GetMap().mapOfObjects)
             {
                 var point = a.GetPosition();

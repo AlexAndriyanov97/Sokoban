@@ -194,5 +194,15 @@ namespace Sokoban
         {
             return map;
         }
+
+        public int GetMapWidth()
+        {
+            return map.MapWidth;
+        }
+
+        public int GetMapHeight()
+        {
+            return map.MapHeight;
+        }
     }
 }
