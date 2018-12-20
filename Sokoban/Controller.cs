@@ -74,13 +74,13 @@ namespace Sokoban
         {
             if (map.mapOfObjects[x + dx, y + dy] is Box || map.mapOfObjects[x + dx, y + dy] is FinishBox)
             {
-                if (map.mapOfObjects[x + 2 * dx, y + dy] is Finish)
+                if (map.mapOfObjects[x + 2 * dx, y + 2*dy] is Finish)
                 {
-                    map.mapOfObjects[x + 2 * dx, y + dy] = new FinishBox(x + 2 * dx, y + dy);
+                    map.mapOfObjects[x + 2 * dx, y + 2*dy] = new FinishBox(x + 2 * dx, y + 2*dy);
                 }
                 else
                 {
-                    map.mapOfObjects[x + 2 * dx, y + dy] = new Box(x + 2 * dx, y + dy);
+                    map.mapOfObjects[x + 2 * dx, y + 2* dy] = new Box(x + 2 * dx, y +2*dy);
                 }
             }
 

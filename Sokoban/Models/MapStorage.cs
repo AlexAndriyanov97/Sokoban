@@ -17,25 +17,26 @@ PBBBB"
             },
             {
                 2, @"
-TTTGTT TS
-T T  TSTT
-T TTTTSTT
-T TSTS TT
-TPTTTG ST
-TSTSTT TT"
+WWWWWWWWW
+       FW
+        W
+        W
+ B      W
+P       W"
             },
             {
                 3, @"
-P      TST
-TST  TSTTM
-TTT TTSTTT
-T TSTS TTT
-T TTTG STS
-T TMT M TS
-SSTSTTMTTT
-  TTST  TG
- TGST MTTT
-MT  TMTTTT"
+    WWWWW             
+    W   W             
+    WB  W             
+  WWW  BWWW           
+  W  B  B W           
+WWW W WWW W     WWWWWW
+W   W WWW WWWWWWW  FF
+W B  B             FFW
+WWWWW WWWW WPWWWW  FFW
+    W      WWW  WWWWWW
+    WWWWWWWW          "
             }
         };
 

@@ -10,7 +10,7 @@ namespace Sokoban
     {
         private const int elementSize = 65;
         private readonly Dictionary<string, Bitmap> bitmaps = new Dictionary<string, Bitmap>();
-        private IController controller;
+        private readonly IController controller;
 
         public SokobanWindow(Controller controller)
         {
@@ -54,6 +54,8 @@ namespace Sokoban
             }
             Invalidate();
         }
+        
+        
         
 
     }
