@@ -2,45 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f051cf2-e7cf-4bc3-b843-b5e4577935ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/FinishBox.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban/SokobanWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban/images/block_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban/images/crate_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban/images/crate_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban/images/ground_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban/images/ground_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban/images/player_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sokoban/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sokoban/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sokoban/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sokoban/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sokoban/Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Controller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sokoban/IController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/IController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sokoban/Models/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Models/Map.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sokoban/Models/MapStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Models/MapStorage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Box.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Box.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/IGameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/IGameObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/EmptyCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/EmptyCell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Finish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Finish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Wall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Wall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/Sokoban.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/Sokoban.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/images/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/images/empty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/images/finish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/images/player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/images/wall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/obj/Debug/netcoreapp2.1/Sokoban.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/obj/Debug/netcoreapp2.1/Sokoban.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/obj/Sokoban.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/obj/Sokoban.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/obj/Sokoban.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/obj/Sokoban.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/obj/Sokoban.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/obj/Sokoban.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sokoban/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sokoban/SokobanWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban/SokobanWindow.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2113398863">
@@ -55,27 +42,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="55" />
+          <entry key="cs" value="66" />
           <entry key="png" value="19" />
           <entry key="resx" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="55" />
+          <entry key="C#" value="66" />
           <entry key="Image" value="19" />
           <entry key="Resources" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5608" />
+          <entry key="cs" value="6494" />
           <entry key="resx" value="1" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5608" />
+          <entry key="C#" value="6494" />
+          <entry key="PLAIN_TEXT" value="26" />
           <entry key="Resources" value="1" />
         </counts>
       </usages-collector>
@@ -86,107 +75,135 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sokoban/IController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <marker date="1545254662579" expanded="true" signature="46:213" ph="{...}" />
-                <marker date="1545254662579" expanded="true" signature="81:211" ph="{...}" />
+                <marker date="1545264745858" expanded="true" signature="46:239" ph="{...}" />
+                <marker date="1545264745858" expanded="true" signature="81:237" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sokoban/Controller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="103" column="78" selection-start-line="103" selection-start-column="78" selection-end-line="103" selection-end-column="78" />
+              <folding>
+                <marker date="1545265692015" expanded="true" signature="6:133" ph="..." />
+                <marker date="1545265692015" expanded="true" signature="152:6007" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="196:6005" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="475:603" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="648:1932" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="791:890" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="1015:1922" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="1128:1219" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="1350:1440" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="1568:1658" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="1789:1880" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="1993:2861" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="2109:2480" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="2191:2321" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="2342:2466" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="2528:2615" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="2632:2722" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="2901:3117" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="3046:3107" ph="{...}" />
+                <marker date="1545265692015" expanded="false" signature="3196:4390" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="3247:3346" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="3544:3602" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="3806:3863" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="4296:4354" ph="{...}" />
+                <marker date="1545265692015" expanded="false" signature="4467:5651" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="4518:4617" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="4816:4874" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="5078:5135" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="5557:5615" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="5690:5766" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="5797:5843" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="5877:5926" ph="{...}" />
+                <marker date="1545265692015" expanded="true" signature="5955:5999" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sokoban/Controller.cs">
+        <entry file="file://$PROJECT_DIR$/Sokoban/SokobanWindow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="76" column="89" selection-start-line="76" selection-start-column="89" selection-end-line="76" selection-end-column="89" />
+            <state relative-caret-position="381">
+              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
               <folding>
-                <marker date="1545261896872" expanded="true" signature="6:114" ph="..." />
-                <marker date="1545261896872" expanded="true" signature="133:5523" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="177:5521" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="464:592" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="630:1884" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="743:842" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="967:1874" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="1080:1171" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="1302:1392" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="1520:1610" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="1741:1832" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="1945:2597" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="2061:2432" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="2143:2273" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="2294:2418" ph="{...}" />
-                <marker date="1545261896872" expanded="false" signature="2676:3870" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="2727:2826" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="3024:3082" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="3286:3343" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="3776:3834" ph="{...}" />
-                <marker date="1545261896872" expanded="false" signature="3947:5125" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="3998:4097" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="4296:4354" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="4558:4615" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="5031:5089" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="5170:5249" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="5289:5365" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="5396:5442" ph="{...}" />
-                <marker date="1545261896872" expanded="true" signature="5471:5515" ph="{...}" />
+                <marker date="1545266181633" expanded="true" signature="6:114" ph="..." />
+                <marker date="1545266181633" expanded="true" signature="133:2018" ph="{...}" />
+                <marker date="1545266181633" expanded="true" signature="173:2016" ph="{...}" />
+                <marker date="1545266181633" expanded="true" signature="412:845" ph="{...}" />
+                <marker date="1545266181633" expanded="true" signature="898:1011" ph="{...}" />
+                <marker date="1545266181633" expanded="true" signature="1070:1760" ph="{...}" />
+                <marker date="1545266181633" expanded="true" signature="1370:1595" ph="{...}" />
+                <marker date="1545266181633" expanded="true" signature="1819:2000" ph="{...}" />
+                <marker date="1545266181633" expanded="true" signature="1919:1964" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sokoban/images/crate_05.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Finish.cs">
+        <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="486">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
-                <marker date="1545252561667" expanded="true" signature="40:669" ph="{...}" />
-                <marker date="1545252561667" expanded="true" signature="80:667" ph="{...}" />
-                <marker date="1545252561667" expanded="true" signature="226:292" ph="{...}" />
-                <marker date="1545252561667" expanded="true" signature="328:373" ph="{...}" />
-                <marker date="1545252561667" expanded="true" signature="411:460" ph="{...}" />
-                <marker date="1545252561667" expanded="true" signature="496:552" ph="{...}" />
-                <marker date="1545252561667" expanded="true" signature="601:661" ph="{...}" />
+                <marker date="1545252353254" expanded="false" signature="6:71" ph="..." />
+                <marker date="1545252353254" expanded="true" signature="90:916" ph="{...}" />
+                <marker date="1545252353254" expanded="true" signature="130:914" ph="{...}" />
+                <marker date="1545252353254" expanded="true" signature="319:386" ph="{...}" />
+                <marker date="1545252353254" expanded="true" signature="424:473" ph="{...}" />
+                <marker date="1545252353254" expanded="true" signature="523:625" ph="{...}" />
+                <marker date="1545252353254" expanded="true" signature="661:707" ph="{...}" />
+                <marker date="1545252353254" expanded="true" signature="743:799" ph="{...}" />
+                <marker date="1545252353254" expanded="true" signature="848:908" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/FinishBox.cs">
+        <entry file="file://$PROJECT_DIR$/Sokoban/Models/MapStorage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state>
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
               <folding>
-                <marker date="1545261588933" expanded="true" signature="40:726" ph="{...}" />
-                <marker date="1545261588933" expanded="true" signature="81:724" ph="{...}" />
-                <marker date="1545261588933" expanded="true" signature="283:348" ph="{...}" />
-                <marker date="1545261588933" expanded="true" signature="384:430" ph="{...}" />
-                <marker date="1545261588933" expanded="true" signature="468:517" ph="{...}" />
-                <marker date="1545261588933" expanded="true" signature="553:609" ph="{...}" />
-                <marker date="1545261588933" expanded="true" signature="658:718" ph="{...}" />
+                <marker date="1545264607413" expanded="false" signature="6:108" ph="..." />
+                <marker date="1545264607413" expanded="true" signature="127:881" ph="{...}" />
+                <marker date="1545264607413" expanded="true" signature="164:879" ph="{...}" />
+                <marker date="1545264607413" expanded="true" signature="263:617" ph="{...}" />
+                <marker date="1545264607413" expanded="true" signature="666:873" ph="{...}" />
+                <marker date="1545264607413" expanded="true" signature="717:781" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sokoban/Program.cs">
+        <entry file="file://$PROJECT_DIR$/Sokoban/Models/Map.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="450">
+              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
               <folding>
-                <marker date="1545251907108" expanded="false" signature="6:41" ph="..." />
-                <marker date="1545251907108" expanded="true" signature="60:299" ph="{...}" />
-                <marker date="1545251907108" expanded="true" signature="80:297" ph="{...}" />
-                <marker date="1545251907108" expanded="true" signature="126:291" ph="{...}" />
+                <marker date="1545265591807" expanded="false" signature="6:54" ph="..." />
+                <marker date="1545265591807" expanded="true" signature="73:2296" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="96:2294" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="363:1268" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="611:703" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="1000:1258" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="1068:1244" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="1342:1981" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="1375:1971" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="2026:2287" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="2089:2251" ph="{...}" />
+                <marker date="1545265591807" expanded="true" signature="2152:2237" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -196,7 +213,7 @@
         <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Box.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <marker date="1545252561675" expanded="true" signature="40:715" ph="{...}" />
                 <marker date="1545252561675" expanded="true" signature="76:713" ph="{...}" />
@@ -205,24 +222,6 @@
                 <marker date="1545252561675" expanded="true" signature="457:506" ph="{...}" />
                 <marker date="1545252561675" expanded="true" signature="542:598" ph="{...}" />
                 <marker date="1545252561675" expanded="true" signature="647:707" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/EmptyCell.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <marker date="1545260886704" expanded="true" signature="40:693" ph="{...}" />
-                <marker date="1545260886704" expanded="true" signature="83:691" ph="{...}" />
-                <marker date="1545260886704" expanded="true" signature="241:307" ph="{...}" />
-                <marker date="1545260886704" expanded="true" signature="343:388" ph="{...}" />
-                <marker date="1545260886704" expanded="true" signature="426:475" ph="{...}" />
-                <marker date="1545260886704" expanded="true" signature="520:576" ph="{...}" />
-                <marker date="1545260886704" expanded="true" signature="625:685" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -247,19 +246,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sokoban/SokobanWindow.cs">
+        <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Finish.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+            <state relative-caret-position="81">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
-                <marker date="1545260404025" expanded="true" signature="6:114" ph="..." />
-                <marker date="1545260404025" expanded="true" signature="133:1923" ph="{...}" />
-                <marker date="1545260404025" expanded="true" signature="173:1921" ph="{...}" />
-                <marker date="1545260404025" expanded="true" signature="412:845" ph="{...}" />
-                <marker date="1545260404025" expanded="true" signature="898:1011" ph="{...}" />
-                <marker date="1545260404025" expanded="true" signature="1070:1760" ph="{...}" />
-                <marker date="1545260404025" expanded="true" signature="1370:1595" ph="{...}" />
-                <marker date="1545260404025" expanded="true" signature="1819:1914" ph="{...}" />
+                <marker date="1545252561667" expanded="true" signature="40:669" ph="{...}" />
+                <marker date="1545252561667" expanded="true" signature="80:667" ph="{...}" />
+                <marker date="1545252561667" expanded="true" signature="226:292" ph="{...}" />
+                <marker date="1545252561667" expanded="true" signature="328:373" ph="{...}" />
+                <marker date="1545252561667" expanded="true" signature="411:460" ph="{...}" />
+                <marker date="1545252561667" expanded="true" signature="496:552" ph="{...}" />
+                <marker date="1545252561667" expanded="true" signature="601:661" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -267,10 +265,16 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>controller</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/69ECB40F-27A1-431A-9962-0933BA9A8B39/eb/177ba26b/Control.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Sokoban/SokobanWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/FinishBox.cs" root0="FORCE_HIGHLIGHTING" />
@@ -306,18 +310,18 @@
         <option value="$PROJECT_DIR$/Sokoban/Resources1.resx" />
         <option value="$PROJECT_DIR$/Sokoban/Models/SokobanWindow.cs" />
         <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/IGameObject.cs" />
-        <option value="$PROJECT_DIR$/Sokoban/Models/MapStorage.cs" />
         <option value="$PROJECT_DIR$/Sokoban/Program.cs" />
         <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Player.cs" />
         <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Wall.cs" />
         <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Finish.cs" />
+        <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/FinishBox.cs" />
+        <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Box.cs" />
+        <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/EmptyCell.cs" />
+        <option value="$PROJECT_DIR$/Sokoban/Models/MapStorage.cs" />
         <option value="$PROJECT_DIR$/Sokoban/IController.cs" />
         <option value="$PROJECT_DIR$/Sokoban/Models/Map.cs" />
-        <option value="$PROJECT_DIR$/Sokoban/SokobanWindow.cs" />
-        <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/EmptyCell.cs" />
-        <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/FinishBox.cs" />
         <option value="$PROJECT_DIR$/Sokoban/Controller.cs" />
-        <option value="$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Box.cs" />
+        <option value="$PROJECT_DIR$/Sokoban/SokobanWindow.cs" />
       </list>
     </option>
   </component>
@@ -327,10 +331,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="522" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="744" />
     <option name="y" value="30" />
-    <option name="width" value="1398" />
+    <option name="width" value="1176" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -357,20 +361,7 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Sokoban" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Sokoban" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Sokoban" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Sokoban" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Sokoban" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Sokoban" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ObjectsOfMap" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -436,12 +427,20 @@
       <updated>1544880395052</updated>
       <workItem from="1544880398240" duration="7845000" />
       <workItem from="1544900895802" duration="13991000" />
-      <workItem from="1545244574091" duration="16621000" />
+      <workItem from="1545244574091" duration="21240000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;First working version&quot;">
+      <created>1545262196139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545262196139</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38457000" />
+    <option name="totallyTimeSpent" value="43076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,16 +452,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="522" y="30" width="1398" height="1050" extended-state="0" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18343195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13233724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32934782" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41086957" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41086957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,8 +476,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -513,6 +512,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;First working version&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;First working version&quot;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -520,33 +523,62 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+        <line-breakpoint type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Sokoban/Controller.cs</url>
-          <line>26</line>
-          <properties documentPath="$PROJECT_DIR$/Sokoban/Controller.cs" initialLine="26">
-            <startOffsets>
-              <option value="653" />
-            </startOffsets>
-            <endOffsets>
-              <option value="701" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Sokoban/Controller.cs</url>
-          <line>91</line>
+          <line>112</line>
           <properties documentPath="$PROJECT_DIR$/Sokoban/Controller.cs" initialLine="100">
             <startOffsets>
-              <option value="2699" />
+              <option value="3219" />
             </startOffsets>
             <endOffsets>
-              <option value="2727" />
+              <option value="3247" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Sokoban/SokobanWindow.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/Sokoban/SokobanWindow.cs" initialLine="50">
+            <startOffsets>
+              <option value="1891" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1919" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Sokoban/Controller.cs</url>
+          <line>106</line>
+          <properties documentPath="$PROJECT_DIR$/Sokoban/Controller.cs" initialLine="106">
+            <startOffsets>
+              <option value="3077" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3093" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Sokoban/Controller.cs</url>
+          <line>103</line>
+          <properties documentPath="$PROJECT_DIR$/Sokoban/Controller.cs" initialLine="103">
+            <startOffsets>
+              <option value="2924" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2990" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -583,53 +615,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/images/finish.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/IGameObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <marker date="1545249157554" expanded="true" signature="40:231" ph="{...}" />
-            <marker date="1545249157554" expanded="true" signature="75:229" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/Models/MapStorage.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <marker date="1545251785232" expanded="false" signature="6:108" ph="..." />
-            <marker date="1545251785232" expanded="true" signature="127:881" ph="{...}" />
-            <marker date="1545251785232" expanded="true" signature="164:879" ph="{...}" />
-            <marker date="1545251785232" expanded="true" signature="263:617" ph="{...}" />
-            <marker date="1545251785232" expanded="true" signature="666:873" ph="{...}" />
-            <marker date="1545251785232" expanded="true" signature="717:781" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/Models/Map.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <marker date="1545256916836" expanded="false" signature="6:54" ph="..." />
-            <marker date="1545256916836" expanded="true" signature="73:1995" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="96:1993" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="254:1000" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="468:560" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="789:990" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="857:976" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="1081:1680" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="1114:1670" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="1725:1986" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="1788:1950" ph="{...}" />
-            <marker date="1545256916836" expanded="true" signature="1851:1936" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/69ECB40F-27A1-431A-9962-0933BA9A8B39/9f/62a43bf3/Application.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -692,28 +677,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Player.cs">
+    <entry file="file://$PROJECT_DIR$/Sokoban/images/crate_05.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding>
-            <marker date="1545252353254" expanded="false" signature="6:71" ph="..." />
-            <marker date="1545252353254" expanded="true" signature="90:916" ph="{...}" />
-            <marker date="1545252353254" expanded="true" signature="130:914" ph="{...}" />
-            <marker date="1545252353254" expanded="true" signature="319:386" ph="{...}" />
-            <marker date="1545252353254" expanded="true" signature="424:473" ph="{...}" />
-            <marker date="1545252353254" expanded="true" signature="523:625" ph="{...}" />
-            <marker date="1545252353254" expanded="true" signature="661:707" ph="{...}" />
-            <marker date="1545252353254" expanded="true" signature="743:799" ph="{...}" />
-            <marker date="1545252353254" expanded="true" signature="848:908" ph="{...}" />
+            <marker date="1545251907108" expanded="false" signature="6:41" ph="..." />
+            <marker date="1545251907108" expanded="true" signature="60:299" ph="{...}" />
+            <marker date="1545251907108" expanded="true" signature="80:297" ph="{...}" />
+            <marker date="1545251907108" expanded="true" signature="126:291" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/69ECB40F-27A1-431A-9962-0933BA9A8B39/eb/177ba26b/Control.cs">
+    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/IGameObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="4707" column="8" selection-start-line="4707" selection-start-column="8" selection-end-line="4707" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <marker date="1545249157554" expanded="true" signature="40:231" ph="{...}" />
+            <marker date="1545249157554" expanded="true" signature="75:229" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/EmptyCell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <marker date="1545260886704" expanded="true" signature="40:693" ph="{...}" />
+            <marker date="1545260886704" expanded="true" signature="83:691" ph="{...}" />
+            <marker date="1545260886704" expanded="true" signature="241:307" ph="{...}" />
+            <marker date="1545260886704" expanded="true" signature="343:388" ph="{...}" />
+            <marker date="1545260886704" expanded="true" signature="426:475" ph="{...}" />
+            <marker date="1545260886704" expanded="true" signature="520:576" ph="{...}" />
+            <marker date="1545260886704" expanded="true" signature="625:685" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/FinishBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <marker date="1545261588933" expanded="true" signature="40:726" ph="{...}" />
+            <marker date="1545261588933" expanded="true" signature="81:724" ph="{...}" />
+            <marker date="1545261588933" expanded="true" signature="283:348" ph="{...}" />
+            <marker date="1545261588933" expanded="true" signature="384:430" ph="{...}" />
+            <marker date="1545261588933" expanded="true" signature="468:517" ph="{...}" />
+            <marker date="1545261588933" expanded="true" signature="553:609" ph="{...}" />
+            <marker date="1545261588933" expanded="true" signature="658:718" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -733,25 +752,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/EmptyCell.cs">
+    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Box.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
-            <marker date="1545260886704" expanded="true" signature="40:693" ph="{...}" />
-            <marker date="1545260886704" expanded="true" signature="83:691" ph="{...}" />
-            <marker date="1545260886704" expanded="true" signature="241:307" ph="{...}" />
-            <marker date="1545260886704" expanded="true" signature="343:388" ph="{...}" />
-            <marker date="1545260886704" expanded="true" signature="426:475" ph="{...}" />
-            <marker date="1545260886704" expanded="true" signature="520:576" ph="{...}" />
-            <marker date="1545260886704" expanded="true" signature="625:685" ph="{...}" />
+            <marker date="1545252561675" expanded="true" signature="40:715" ph="{...}" />
+            <marker date="1545252561675" expanded="true" signature="76:713" ph="{...}" />
+            <marker date="1545252561675" expanded="true" signature="272:337" ph="{...}" />
+            <marker date="1545252561675" expanded="true" signature="373:419" ph="{...}" />
+            <marker date="1545252561675" expanded="true" signature="457:506" ph="{...}" />
+            <marker date="1545252561675" expanded="true" signature="542:598" ph="{...}" />
+            <marker date="1545252561675" expanded="true" signature="647:707" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/69ECB40F-27A1-431A-9962-0933BA9A8B39/eb/177ba26b/Control.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="4707" column="8" selection-start-line="4707" selection-start-column="8" selection-end-line="4707" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/MotionlessObject/Finish.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="81">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <marker date="1545252561667" expanded="true" signature="40:669" ph="{...}" />
@@ -765,116 +791,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/images/crate_05.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Box.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <marker date="1545252561675" expanded="true" signature="40:715" ph="{...}" />
-            <marker date="1545252561675" expanded="true" signature="76:713" ph="{...}" />
-            <marker date="1545252561675" expanded="true" signature="272:337" ph="{...}" />
-            <marker date="1545252561675" expanded="true" signature="373:419" ph="{...}" />
-            <marker date="1545252561675" expanded="true" signature="457:506" ph="{...}" />
-            <marker date="1545252561675" expanded="true" signature="542:598" ph="{...}" />
-            <marker date="1545252561675" expanded="true" signature="647:707" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/FinishBox.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <marker date="1545261588933" expanded="true" signature="40:726" ph="{...}" />
-            <marker date="1545261588933" expanded="true" signature="81:724" ph="{...}" />
-            <marker date="1545261588933" expanded="true" signature="283:348" ph="{...}" />
-            <marker date="1545261588933" expanded="true" signature="384:430" ph="{...}" />
-            <marker date="1545261588933" expanded="true" signature="468:517" ph="{...}" />
-            <marker date="1545261588933" expanded="true" signature="553:609" ph="{...}" />
-            <marker date="1545261588933" expanded="true" signature="658:718" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/IController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <marker date="1545254662579" expanded="true" signature="46:213" ph="{...}" />
-            <marker date="1545254662579" expanded="true" signature="81:211" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <marker date="1545251907108" expanded="false" signature="6:41" ph="..." />
-            <marker date="1545251907108" expanded="true" signature="60:299" ph="{...}" />
-            <marker date="1545251907108" expanded="true" signature="80:297" ph="{...}" />
-            <marker date="1545251907108" expanded="true" signature="126:291" ph="{...}" />
+            <marker date="1545264745858" expanded="true" signature="46:239" ph="{...}" />
+            <marker date="1545264745858" expanded="true" signature="81:237" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/SokobanWindow.cs">
+    <entry file="file://$PROJECT_DIR$/Sokoban/Models/MapStorage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        <state>
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
           <folding>
-            <marker date="1545260404025" expanded="true" signature="6:114" ph="..." />
-            <marker date="1545260404025" expanded="true" signature="133:1923" ph="{...}" />
-            <marker date="1545260404025" expanded="true" signature="173:1921" ph="{...}" />
-            <marker date="1545260404025" expanded="true" signature="412:845" ph="{...}" />
-            <marker date="1545260404025" expanded="true" signature="898:1011" ph="{...}" />
-            <marker date="1545260404025" expanded="true" signature="1070:1760" ph="{...}" />
-            <marker date="1545260404025" expanded="true" signature="1370:1595" ph="{...}" />
-            <marker date="1545260404025" expanded="true" signature="1819:1914" ph="{...}" />
+            <marker date="1545264607413" expanded="false" signature="6:108" ph="..." />
+            <marker date="1545264607413" expanded="true" signature="127:881" ph="{...}" />
+            <marker date="1545264607413" expanded="true" signature="164:879" ph="{...}" />
+            <marker date="1545264607413" expanded="true" signature="263:617" ph="{...}" />
+            <marker date="1545264607413" expanded="true" signature="666:873" ph="{...}" />
+            <marker date="1545264607413" expanded="true" signature="717:781" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/Models/ObjectsOfMap/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <marker date="1545252353254" expanded="false" signature="6:71" ph="..." />
+            <marker date="1545252353254" expanded="true" signature="90:916" ph="{...}" />
+            <marker date="1545252353254" expanded="true" signature="130:914" ph="{...}" />
+            <marker date="1545252353254" expanded="true" signature="319:386" ph="{...}" />
+            <marker date="1545252353254" expanded="true" signature="424:473" ph="{...}" />
+            <marker date="1545252353254" expanded="true" signature="523:625" ph="{...}" />
+            <marker date="1545252353254" expanded="true" signature="661:707" ph="{...}" />
+            <marker date="1545252353254" expanded="true" signature="743:799" ph="{...}" />
+            <marker date="1545252353254" expanded="true" signature="848:908" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/Models/Map.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <marker date="1545265591807" expanded="false" signature="6:54" ph="..." />
+            <marker date="1545265591807" expanded="true" signature="73:2296" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="96:2294" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="363:1268" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="611:703" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="1000:1258" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="1068:1244" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="1342:1981" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="1375:1971" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="2026:2287" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="2089:2251" ph="{...}" />
+            <marker date="1545265591807" expanded="true" signature="2152:2237" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/Controller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="76" column="89" selection-start-line="76" selection-start-column="89" selection-end-line="76" selection-end-column="89" />
+        <state relative-caret-position="339">
+          <caret line="103" column="78" selection-start-line="103" selection-start-column="78" selection-end-line="103" selection-end-column="78" />
           <folding>
-            <marker date="1545261896872" expanded="true" signature="6:114" ph="..." />
-            <marker date="1545261896872" expanded="true" signature="133:5523" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="177:5521" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="464:592" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="630:1884" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="743:842" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="967:1874" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="1080:1171" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="1302:1392" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="1520:1610" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="1741:1832" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="1945:2597" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="2061:2432" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="2143:2273" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="2294:2418" ph="{...}" />
-            <marker date="1545261896872" expanded="false" signature="2676:3870" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="2727:2826" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="3024:3082" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="3286:3343" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="3776:3834" ph="{...}" />
-            <marker date="1545261896872" expanded="false" signature="3947:5125" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="3998:4097" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="4296:4354" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="4558:4615" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="5031:5089" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="5170:5249" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="5289:5365" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="5396:5442" ph="{...}" />
-            <marker date="1545261896872" expanded="true" signature="5471:5515" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="6:133" ph="..." />
+            <marker date="1545265692015" expanded="true" signature="152:6007" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="196:6005" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="475:603" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="648:1932" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="791:890" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="1015:1922" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="1128:1219" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="1350:1440" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="1568:1658" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="1789:1880" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="1993:2861" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="2109:2480" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="2191:2321" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="2342:2466" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="2528:2615" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="2632:2722" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="2901:3117" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="3046:3107" ph="{...}" />
+            <marker date="1545265692015" expanded="false" signature="3196:4390" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="3247:3346" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="3544:3602" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="3806:3863" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="4296:4354" ph="{...}" />
+            <marker date="1545265692015" expanded="false" signature="4467:5651" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="4518:4617" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="4816:4874" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="5078:5135" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="5557:5615" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="5690:5766" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="5797:5843" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="5877:5926" ph="{...}" />
+            <marker date="1545265692015" expanded="true" signature="5955:5999" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/SokobanWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding>
+            <marker date="1545266181633" expanded="true" signature="6:114" ph="..." />
+            <marker date="1545266181633" expanded="true" signature="133:2018" ph="{...}" />
+            <marker date="1545266181633" expanded="true" signature="173:2016" ph="{...}" />
+            <marker date="1545266181633" expanded="true" signature="412:845" ph="{...}" />
+            <marker date="1545266181633" expanded="true" signature="898:1011" ph="{...}" />
+            <marker date="1545266181633" expanded="true" signature="1070:1760" ph="{...}" />
+            <marker date="1545266181633" expanded="true" signature="1370:1595" ph="{...}" />
+            <marker date="1545266181633" expanded="true" signature="1819:2000" ph="{...}" />
+            <marker date="1545266181633" expanded="true" signature="1919:1964" ph="{...}" />
           </folding>
         </state>
       </provider>

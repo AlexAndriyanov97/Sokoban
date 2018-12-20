@@ -8,7 +8,7 @@ namespace Sokoban
 {
     public class SokobanWindow : Form
     {
-        private const int elementSize = 60;
+        private const int elementSize = 65;
         private readonly Dictionary<string, Bitmap> bitmaps = new Dictionary<string, Bitmap>();
         private IController controller;
 
@@ -47,9 +47,14 @@ namespace Sokoban
 
         protected override void OnKeyDown(KeyEventArgs e)
         {
-            controller.SetPressedKey(e.KeyCode);
+            controller.CalculateStep(e.KeyCode);
+            if (controller.GameIsOver())
+            {
+                //TODO
+            }
             Invalidate();
         }
+        
 
     }
 }

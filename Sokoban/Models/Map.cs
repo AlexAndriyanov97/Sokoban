@@ -7,10 +7,14 @@ namespace Sokoban
     public class Map
     {
         public IGameObject[,] mapOfObjects;
+        public readonly IGameObject[,] sourceMap;
         public readonly int MapWidth;
         public readonly int MapHeight;
+        public int CountFinishCells { get; private set; }
+
         public Map(string map)
         {
+            CountFinishCells = 0;
             const string separator = "\n";
 
             var rows = map.Split(new[] {separator}, StringSplitOptions.RemoveEmptyEntries);
@@ -20,7 +24,7 @@ namespace Sokoban
             }
 
             mapOfObjects = new IGameObject[rows[0].Length, rows.Length];
-
+            sourceMap = new IGameObject[rows[0].Length,rows.Length];
             MapWidth = mapOfObjects.GetLength(0);
             MapHeight = mapOfObjects.GetLength(1);
             for (var x = 0; x < rows[0].Length; x++)
@@ -28,11 +32,12 @@ namespace Sokoban
                 for (var y = 0; y < rows.Length; y++)
                 {
                     mapOfObjects[x, y] = CreateCreatureBySymbol(rows[y][x], x, y);
+                    sourceMap[x, y] = mapOfObjects[x,y];
                 }
             }
         }
 
-        private static IGameObject CreateCreatureBySymbol(char c, int x, int y)
+        private IGameObject CreateCreatureBySymbol(char c, int x, int y)
         {
             switch (c)
             {
@@ -41,6 +46,7 @@ namespace Sokoban
                 case 'B':
                     return new Box(x,y);
                 case 'F':
+                    CountFinishCells++;
                     return new Finish(x,y);
                 case 'W':
                     return new Wall(x,y);

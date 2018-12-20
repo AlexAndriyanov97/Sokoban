@@ -12,7 +12,7 @@ namespace Sokoban
             {
                 1, @"
 BBBBB
-FFBFF
+  BF 
 PBBBB"
             },
             {

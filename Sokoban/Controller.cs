@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Sokoban
@@ -12,7 +13,7 @@ namespace Sokoban
         private Dictionary<string, int> records = new Dictionary<string, int>();
         public Map map;
         private static Keys keyPressed;
-        private bool GameOver = false;
+        private bool gameOver;
         private int score;
 
         public void CreateGame(int level)
@@ -22,8 +23,9 @@ namespace Sokoban
             score = 0;
         }
 
-        private void CalculateStep()
+        public void CalculateStep(Keys key)
         {
+            keyPressed = key;
             var currentPosition = map.GetPositionOfPlayer();
 
             if (currentPosition == null)
@@ -82,9 +84,28 @@ namespace Sokoban
                 }
             }
 
-            map.mapOfObjects[x, y] = new EmptyCell(x, y);
+            if (map.sourceMap[x, y] is Finish)
+            {
+                map.mapOfObjects[x, y] = new Finish(x, y);
+            }
+            else
+            {
+                map.mapOfObjects[x, y] = new EmptyCell(x, y);
+            }
+
+
             map.mapOfObjects[x + dx, y + dy] = new Player(x + dx, y + dy);
             score++;
+            CheckGameStatus();
+        }
+
+        private void CheckGameStatus()
+        {
+            var countFinishBox = map.mapOfObjects.OfType<FinishBox>().Count();
+            if (countFinishBox == map.CountFinishCells)
+            {
+                gameOver = true;
+            }
         }
 
         private bool HorizontalStepIsPossible(Point? currentPosition, int dx)
@@ -140,7 +161,7 @@ namespace Sokoban
             if (currentPosition.Value.Y + 2 * dy >= map.MapHeight || currentPosition.Value.Y + 2 * dy < 0 ||
                 map.mapOfObjects[currentPosition.Value.X, currentPosition.Value.Y + 2 * dy] is Wall ||
                 map.mapOfObjects[currentPosition.Value.X, currentPosition.Value.Y + 2 * dy] is Box ||
-                map.mapOfObjects[currentPosition.Value.X, currentPosition.Value.Y + 2 * dy] is Box)
+                map.mapOfObjects[currentPosition.Value.X, currentPosition.Value.Y + 2 * dy] is FinishBox)
 
             {
                 return false;
@@ -148,13 +169,6 @@ namespace Sokoban
 
             return true;
         }
-
-        public void SetPressedKey(Keys key)
-        {
-            keyPressed = key;
-            CalculateStep();
-        }
-
 
         public void DownloadRecords()
         {
@@ -164,6 +178,11 @@ namespace Sokoban
         public int GetScore()
         {
             return score;
+        }
+
+        public bool GameIsOver()
+        {
+            return gameOver;
         }
 
         public Map GetMap()

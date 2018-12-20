@@ -5,10 +5,10 @@ namespace Sokoban
     public interface IController
     {
         void DownloadRecords();
-        void SetPressedKey(Keys key);
 
         int GetScore();
-
+        void CalculateStep(Keys key);
+        bool GameIsOver();
         Map GetMap();
     }
 }
